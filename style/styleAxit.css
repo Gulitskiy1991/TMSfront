@@ -1,0 +1,388 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapperAxit {
+    max-width: 1145px;
+}
+.wrapperAxit__header {
+    width: 100%;
+}
+.menu__logo img {
+    margin-left: 115px;
+}
+.header__menu {
+    display: flex;
+    background: black;
+    align-items: center;
+}
+.menu__navigation {
+    margin-left: 200px;
+}
+.navigation__topMenu {
+    list-style-type: none;
+    display: flex;
+}
+.navigation__topMenu li a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 0 20px;
+}
+.navigation__topMenu li a:hover {
+    background: #EC7979;
+    display: block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 0 20px;
+}
+.wrapperAxit__container {
+    background: url(../pictures/image.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    /*background: blueviolet;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 170px 50px 170px;
+}
+.blockLeft__h1Title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+}
+.blockLeft__separator {
+    width: 170px;
+    border: 1px solid #FFFFFF;
+}
+.blockLeft__h5Title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.blockLeft__button {
+    box-sizing: border-box ;
+    width: 270px;
+    height: 58px;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center ;
+    border: 2px solid #FFFFFF;
+
+}
+.blockLeft__button:hover {
+    box-sizing: border-box ;
+    width: 270px;
+    height: 58px;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #EC7979;
+    text-align: center ;
+    border: 2px solid #EC7979;
+}
+.rightBlock__form {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.rightBlock__form input {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    width: 370px;
+    height: 38px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #BDBDBD;
+    margin: 0 10px;
+}
+.form__inputPole {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form__h4Title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #333333;
+}
+.form__button {
+    border: none;
+    outline: none;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #EC7979;
+    border-radius: 0 0 10px 10px;
+    width: -webkit-fill-available;
+    margin-top: 167px;
+}
+.form__button:hover {
+    border: none;
+    outline: none;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #AB4949;
+    border-radius: 0 0 10px 10px;
+    width: -webkit-fill-available;
+    margin-top: 167px;
+}
+.wrapperAxit__footer {
+    background: #F8EFEF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+}
+.leftBlock__h4Title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+}
+.leftBlock__h5Title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+.footer__rightBlock {
+    display: flex;
+}
+.footer__rightBlock img {
+    padding: 0 10px;
+}
+.wrapper__bottomBlock {
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+}
+.topContainer__title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.topContainer__separator {
+    border: 1px solid #FFFFFF;
+    width: 170px;
+    text-align: center;
+}
+.topContainer__h5Title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.topContainer__button {
+    box-sizing: border-box ;
+    width: 270px;
+    height: 58px;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center ;
+    border: 2px solid #FFFFFF;
+}
+.topContainer__button:hover {
+    box-sizing: border-box ;
+    width: 270px;
+    height: 58px;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #EC7979;
+    text-align: center ;
+    border: 2px solid #EC7979;
+}
+
+.bottomBlock__topContainer {
+   padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../pictures/bottomBg.png);
+}
+.bottomBlock__middleContainer {
+    display: flex;
+    flex-direction: column;
+    background: #E5E5E5;
+}
+.topContent__h2Title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+.topContent__separator {
+    border: 1px solid #EC7979;
+    width: 170px;
+}
+.topContent__h5Title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+}
+.middleContainer__formContent {
+    display: flex;
+    justify-content: space-around;
+
+}
+.leftForm__inputBlock {
+    display: flex;
+    flex-direction: column;
+}
+.leftForm__inputBlock input {
+    background: #E5E5E5;
+    width: 500px;
+    border: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 25px 0;
+}
+.rightBlock__inputMessage input {
+    background: #E5E5E5;
+    width: 500px;
+    border: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    padding-top: 25px;
+    padding-bottom: 165px;
+}
+.buttonBottom__button {
+    background: #EC7979;
+    outline: none;
+    border: none;
+    width: 370px;
+    height: 58px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.buttonBottom__button:hover {
+    background: #AB4949;
+    outline: none;
+    border: none;
+    width: 370px;
+    height: 58px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.formContent__bottomButton {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.bottomBlock__bottomContainer {
+    background: black;
+    display: flex;
+    flex-direction: column;
+
+}
+.bottomBlock__bottomContainer img {
+    padding: 0 10px;
+}
+.bottomContaine__h5BottomTitle {
+    display: block;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bottomContainer__imgBlock {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
