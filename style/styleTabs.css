@@ -1,0 +1,69 @@
+.container {
+    max-width: 1170px;
+
+}
+.tabContent{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #caecfa;
+}
+.tabContent__text {
+    width: 570px;
+    padding-left: 100px;
+}
+.tabContent__h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+.tabContent__h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    padding: 27px 0;
+}
+.tabContent__button {
+    width: 270px;
+    height: 58px;
+    background: #EC7979;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+}
+.tabContent__button:hover {
+    width: 270px;
+    height: 58px;
+    background: #AB4949;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+}
+.container__tabs {
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    top: 1px;
+    border-radius: 5px 5px 0 0;
+}
+.container__tabs div {
+    width: 184px;
+    height: 40px;
+    text-align: center;
+}
+.container__tabs--active {
+    border: 1px solid #caecfa;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #caecfa;
+    border-bottom: 1px solid #fff;
+}
+.tabs__title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
