@@ -1,7 +1,5 @@
 .wrapperPricing {
     width: 1170px;
-    margin: 0 auto;
-    padding: 15px;
     background: #F5F5F5;
 }
 .mainTitle__h2Title {
@@ -26,7 +24,7 @@
     align-items: center;
 }
 .wrapperPricing__mainBody div {
-    width: 370px;
+    width: 30%
 }
 .wrapperPricing__mainBody ul {
     list-style: none;
@@ -39,23 +37,23 @@
 }
 .wrapperPricing__mainBody li:nth-child(1) {
     font-family: 'Open Sans', sans-serif;
-    height: 60px;
+    padding: 3% 0;
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
     background: #333333;
 }
 .wrapperPricing__mainBody li:nth-child(2) {
-    margin: 2px 0;
-    height: 100px;
+    padding: 6% 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 36px;
     color: #FFFFFF;
     background: #333333;
+    margin: 2px 0;
 }
 .wrapperPricing__mainBody li:nth-child(3) {
-    height: 50px;
+    padding: 3% 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -63,17 +61,54 @@
     background: #333333;
 }
 .wrapperPricing__mainBody li:nth-last-child(-n+6) {
-    height: 50px;
+    padding: 3% 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #86878B;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
 }
-/*.mainBody__containerMiddle:hover {*/
-/*    position: relative;*/
-/*    bottom: 15px;*/
-/*}*/
 .wrapperPricing__mainBody  div:hover {
     position: relative;
     bottom: 15px;
+}
+@media (max-width: 820px) {
+    .wrapperPricing {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .mainTitle__h2Title {
+        font-size: 24px;
+    }
+    .title__h5Title {
+        font-size: 14px;
+    }
+    .wrapperPricing__mainBody div {
+        width: 30%;
+    }
+}
+@media only screen and (max-device-width : 320px) {
+    .wrapperPricing  {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .wrapperPricing__topBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapperPricing__mainBody {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapperPricing__mainBody div{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 }

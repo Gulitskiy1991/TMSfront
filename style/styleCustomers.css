@@ -1,72 +1,84 @@
 .wrapperCustomers {
     width: 1170px;
-    margin: 0 auto;
-    padding: 15px;
+}
+.wrapperCustomers__topBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .topTitle__h2Title {
-    text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 36px;
+    line-height: 42px;
+    color: #000000;
 }
 .wrapperCustomers__separator {
-    width: 170px;
     border: 1px solid #EC7979;
+    width: 170px;
 }
 .midTitle__h5Title {
     font-family: 'Raleway', sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
+    line-height: 21px;
     color: #86878B;
-    text-align: center;
 }
-.wrapperCustomers__customers {
-    padding: 0 170px;
+.wrapperCustomers__mainContent {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
-.customer_1__block1 {
+/*.wrapperCustomers__mainContent div {*/
+/*    margin: 0 5%;*/
+/*}*/
+.mainContent__leftContent {
+    margin: 0 5%;
+}
+.mainContent__rightContent {
+    margin: 0 5%;
+}
+.mainContent__middleContent {
+    margin: 0 5%;
+}
+.mainContent__p-all {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-align: center;
     background: #E2E2E2;
     border-radius: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    color: #86878B;
 }
-.customer_1__block2 {
+.mainContent__h4-all {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+.mainContent__h5-all {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.leftContent__bottomCustomer {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.customer_2__block2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.customer_3__block2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.customer_2__block1 {
-    background-color: #E2E2E2;
-    border-radius: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    color: #86878B;
-}
-.customer_3__block1 {
-    background: #E2E2E2;
-    border-radius: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    color: #86878B;
-}
-.customers__customer_2 {
-    margin: 0 30px;
-}
-.block2__rightPosition {
+.bottomCustomer__title {
     display: inline-block;
 }
 .customer_1__triangle {
@@ -78,4 +90,66 @@
     position: relative;
     bottom: 19px;
     left: 70px;
+}
+
+
+@media (max-width: 820px) {
+    .wrapperCustomers {
+        width: 820px;
+        margin: 0;
+        padding: 0;
+    }
+    .topTitle__h2Title {
+        font-size: 24px;
+    }
+    .midTitle__h5Title {
+        font-size: 14px;
+    }
+    .mainContent__p-all {
+        font-size: 14px;
+    }
+    .mainContent__h4-all {
+        font-size: 18px;
+    }
+    .mainContent__h5-all {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-device-width : 320px) {
+    .wrapperCustomers {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .wrapperCustomers__mainContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .topTitle__h2Title {
+        text-align: center;
+    }
+    .midTitle__h5Title {
+        text-align: center;
+    }
+    .mainContent__middleContent {
+        display: none;
+    }
+    .mainContent__rightContent {
+        display: none;
+    }
+    .krug {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .blockRadius {
+        width: 10px;
+        height: 10px;
+        background: #86878B;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+    }
 }
